@@ -1,4 +1,7 @@
 _site
+.sass-cache/
+.jekyll-metadata
+.bundle
 
 # Windows image file caches
 Thumbs.db
@@ -15,17 +18,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
 
 # Icon must ends with two \r.
 Icon

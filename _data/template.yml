@@ -1,11 +1,72 @@
-# Color settings (hex-codes without the leading hash-tag)
+# Color settings (hex color codes without the leading hash)
 color:
-  primary: fed136
-  secondary: fec503   
-  secondary-dark: 333
+  primary: 3f8abe # was 64a1cc 8EC2E6 639ac9 2196F3
+  secondary: 2c5a80 # was 0b7dda
+  secondary-dark: 183247 # was 053861
+  light: fff
+  brand: 3f8abe # was 64a1cc fff
+  header:  fff # 64a1cc
+  header-desktop: 3f8abe # brand
+  navbar-items: 3f8abe # brand
   muted: 777
+  bg-darkest-gray: 222
 
-# Font Families
+# Font Families and base sizes
 font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  # was 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  primary: 'Rubik,"Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  body: '"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif'
+  p-size: 110%
+  large: 1.125em
+  sec-head-size: 2.5em
+  sec-sub-head-size: 1.5em
+
+media:
+  midsize: 545px
+  wide-desktop: 2000px
+
+# Header strings with padding and scroll-but
+header:
+  #background-position: 50% 20%
+  #background-position: left/right/center top/center/bottom
+  #background-position: left top
+  background-position: left 40%
+  nav:
+    text:
+      align: center
+    populated-width: 835px
+    #value above plus 15px
+    newbreakpoint: 850px
+
+  intro:
+    text:
+      align: right
+      align-midsize: center
+      align-desktop: left
+      padding-top: 190px
+      padding-bottom: 40px
+      padding-top-desktop: 60px
+      padding-bottom-desktop: 300px
+      padding-top-wide-desktop: 120px
+    lead-in:
+      string: # intro-lead-in
+      font-size:
+      line-height:
+      font-size-desktop:
+      line-height-desktop:
+    heading:
+      string: Electrical Engineer <br/> and Problem Solver
+      string-desktop: Electrical Engineer <br/> and Problem Solver
+      font-size: 2.5em
+      line-height: 1.5em
+      font-size-desktop: 2.1em
+      line-height-desktop: 1.3em
+      font-size-wide-desktop: 3em
+      line-height-wide-desktop: 1.5em
+  scroll-but:
+    text-align: center
+    padding-top: 0px
+    padding-top-desktop: 0px
+    padding-bottom: 50px
+    padding-bottom-desktop: 100px
