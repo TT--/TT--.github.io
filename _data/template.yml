@@ -19,9 +19,13 @@ font:
   body: '"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif'
   p-size: 110%
   large: 1.125em
-  sec-head-size: 2.5em
+  sec-head-size1: 1.5em
+  sec-head-size2: 2.2em
   sec-sub-head-size: 1.5em
+  brand-nav-collapse1: 1.5em
+  brand-nav-collapse2: 2em
 
+# For font centering
 media:
   midsize: 545px
   wide-desktop: 2000px
@@ -35,6 +39,7 @@ header:
   nav:
     text:
       align: center
+    # For navbar breakpoint width
     populated-width: 835px
     #value above plus 15px
     newbreakpoint: 850px
@@ -44,22 +49,27 @@ header:
       align: right
       align-midsize: center
       align-desktop: left
-      padding-top: 190px
+      padding-top: 170px
       padding-bottom: 40px
+      padding-top-mid: 190px
       padding-top-desktop: 60px
       padding-bottom-desktop: 300px
       padding-top-wide-desktop: 120px
     lead-in:
-      string: # intro-lead-in
+      string: # header lead-in
       font-size:
       line-height:
+      font-size-mid:
+      line-height-mid:
       font-size-desktop:
       line-height-desktop:
     heading:
       string: Electrical Engineer <br/> and Problem Solver
       string-desktop: Electrical Engineer <br/> and Problem Solver
-      font-size: 2.5em
-      line-height: 1.5em
+      font-size: 2.1em
+      line-height: 1.3em
+      font-size-mid: 2.5em
+      line-height-mid: 1.5em
       font-size-desktop: 2.1em
       line-height-desktop: 1.3em
       font-size-wide-desktop: 3em
