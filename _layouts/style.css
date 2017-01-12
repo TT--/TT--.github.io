@@ -419,6 +419,8 @@ section#contact {
 .list-inline>li {
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 ul.social-buttons li a {
     background-color: #{{ site.data.template.color.bg-darkest-gray }};
