@@ -19,8 +19,8 @@ font:
   body: '"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif'
   p-size: 110%
   large: 1.125em
-  sec-head-size1: 1.5em
-  sec-head-size2: 2.2em
+  sec-head-size1: 1.6em
+  sec-head-size2: 2.3em
   sec-sub-head-size: 1.5em
   brand-nav-collapse1: 1.5em
   brand-nav-collapse2: 2em
