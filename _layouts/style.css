@@ -468,7 +468,7 @@ ul.social-buttons li a {
 }
 
 .img-padded {
-    padding: 15px;
+    padding: 20px 15px;
 }
 
 {{ content }}
