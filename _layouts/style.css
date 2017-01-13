@@ -160,6 +160,13 @@ section#about{
     padding-bottom: 0;
 }
 
+#about .container {
+	padding: 40px 0;
+}
+
+.service-heading {
+    margin: 15px 0 0;
+}
 
 
 section h2.section-heading {
@@ -357,14 +364,6 @@ section#contact {
     background-color: #{{ site.data.template.color.bg-darkest-gray }};
 }
 
-#about .container {
-	padding: 40px 0;
-}
-
-.service-heading {
-    margin: 15px 0 0;
-}
-
 #portfolio .portfolio-item .portfolio-caption p {
     /* font was serif and italic */
     font-family: {{ site.data.template.font.body }};
@@ -396,7 +395,7 @@ section#contact {
 }
 
 .timeline {
-    padding: 10;
+    padding: 10px;
 }
 
 .timeline h4 {
@@ -466,6 +465,10 @@ ul.social-buttons li a {
 .row {
     margin-left: auto;
     margin-right: auto;
+}
+
+.img-padded {
+    padding: 15px;
 }
 
 {{ content }}
