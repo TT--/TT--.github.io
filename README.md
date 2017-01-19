@@ -11,39 +11,33 @@ agency.js
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
 
-bootstrap.js
- * Bootstrap v3.2.0 (http://getbootstrap.com)
+bootstrap.js from Bootstrap v3.2.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  
 cbpAnimatedHeader.js v1.0.0
- * Copyright 2013, Codrops  http://www.codrops.com
- * Licensed under the MIT license.
+ * Copyright 2013, Codrops (http://www.codrops.com) Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
 
 classie.js - class helper functions
- * from bonzo https://github.com/ded/bonzo
- * Bonzo is Copyright © 2014 Dustin Diaz @ded and licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. 
+ * from Bonzo https://github.com/ded/bonzo, Copyright © 2014 Dustin Diaz @ded and licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. 
  
-jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
+jQuery Easing v1.3 (http://gsgd.co.uk/sandbox/jquery/easing/) uses the built in easing capabilities added In jQuery 1.1 to offer multiple easing options
 
- * Uses the built in easing capabilities added In jQuery 1.1 to offer multiple easing options
  TERMS OF USE - EASING EQUATIONS
- * Open source under the BSD License.
- * Copyright © 2001 Robert Penner
- * All rights reserved.
- TERMS OF USE - jQuery Easing
- * Open source under the BSD License.
- * Copyright © 2008 George McGinley Smith
- * All rights reserved.
+  * Open source under the BSD License.
+  * Copyright © 2001 Robert Penner
+  * All rights reserved.
+  
+TERMS OF USE - jQuery Easing
+  * Open source under the BSD License.
+  * Copyright © 2008 George McGinley Smith
+  * All rights reserved.
  
-bootstrap.min.css
- * Bootswatch v3.2.0
- * Homepage: http://bootswatch.com
- * Copyright 2012-2014 Thomas Park
- * Licensed under MIT
- * Based on Bootstrap
- 
+bootstrap.min.css from Bootswatch v3.2.0 Based on Bootstrap
+ * Copyright 2012-2014 Thomas Park, Licensed under MIT
+ * http://bootswatch.com
+
 Some icons are from <a href="http://www.flaticon.com">flaticon.com</a>
  * Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="soldering-machine" href="http://www.freepik.com">Freepik</a>, <a data-file="people-1" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a>, <a data-file="mesh" href="http://www.flaticon.com/authors/darius-dan">Darius Dan</a>, <a data-file="tesla-coil" href="http://www.flaticon.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a>, <a data-file="technology-1" href="http://www.flaticon.com/authors/eucalyp">Eucalyp</a>, <a data-file="browser" href="http://www.flaticon.com/authors/retinaicons">Retinaicons</a></p>  
      
