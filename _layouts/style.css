@@ -146,6 +146,14 @@ header .scroll-but {
     padding-bottom: {{site.data.template.header.scroll-but.padding-bottom}};
 }
 
+header .f04-text {
+    text-align: {{site.data.template.header.intro.text.align-midsize}};
+    padding-top: {{site.data.template.header.intro.text.padding-top-mid}};
+    padding-bottom: {{site.data.template.header.scroll-but.padding-bottom-desktop}};
+    font-size: {{ site.data.template.header.intro.heading.font-size-mid}};
+    line-height: {{ site.data.template.header.intro.heading.line-height-mid}};
+}
+
 .gridlist{
 	width: 100%;
     padding-top: 15px;
@@ -196,8 +204,6 @@ section h2.about-heading {
 	}
     header .intro-text {
         text-align: {{site.data.template.header.intro.text.align-midsize}};
-    }
-    header .intro-text {
         padding-top: {{site.data.template.header.intro.text.padding-top-mid}}
     }
     header .intro-text .intro-lead-in {

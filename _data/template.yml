@@ -56,7 +56,7 @@ header:
       padding-bottom-desktop: 300px
       padding-top-wide-desktop: 120px
     lead-in:
-      string: # header lead-in
+      string: # header lead-in text
       font-size:
       line-height:
       font-size-mid:
