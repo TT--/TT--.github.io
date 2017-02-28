@@ -22,13 +22,18 @@ people:
   url: http://ca.linkedin.com/in/tylertrezise
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
+# refer to: http://fontawesome.io/icons/
+social-contact:
   - title: envelope
     url: http://www.google.com/recaptcha/mailhide/d?k=01Fqo5M4sCOuHDBWiglleMWQ==&c=9dTla-ArGgmyk4CgVqhCG_6c0hHHLmtxC53H-Ftk7lY=
   - title: linkedin
     url: http://ca.linkedin.com/in/tylertrezise
   - title: skype
     url: skype:tylert7?call
+
+social-footer:
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/3066295/tt?tab=profile
 
 # Postal address (add as many lines as necessary)
 address:

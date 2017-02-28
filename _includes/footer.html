@@ -3,13 +3,22 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-sm-12">
+                    <div class="footer-col col-sm-6">
                         <h3>Currently Located</h3>
                         <p>
-                            {% for adress in site.address %}
-                                <span class="address"> {{ adress.line }} </span>
+                            {% for address in site.address %}
+                                <span class="address"> {{ address.line }} </span>
 		                    {% endfor %}
                         </p>
+                    </div>
+                    <div class="footer-col col-sm-6">
+                        <h3>More Links</h3>
+                        <ul class="list-inline social-buttons">
+                            {% for network in site.social-footer %}
+                                <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                    </li>
+                            {% endfor %}
+                        </ul>
                     </div>
                 </div>
             </div>

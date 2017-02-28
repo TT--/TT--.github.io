@@ -30,13 +30,6 @@ p {
     font-size: {{ site.data.template.font.p-size }};
     line-height: 175%;
 }
-
-h4 {
-    line-height: 145%;
-    letter-spacing: 0.8px;
-    font-size: 15px;
-}
-
 p.large {
     font-size: {{ site.data.template.font.large }};
 }
@@ -172,11 +165,6 @@ section#about{
 	padding: 40px 0;
 }
 
-.service-heading {
-    margin: 15px 0 0;
-}
-
-
 section h2.section-heading {
     font-size: {{ site.data.template.font.sec-head-size1 }};
 }
@@ -187,6 +175,34 @@ section h2.about-heading {
 	margin-bottom: 15px;
 }
 
+section h3.section-subheading {
+    /* font was serif and italic */
+    font-family: {{ site.data.template.font.body }};
+    font-style: normal;
+    font-size: {{ site.data.template.font.sec-sub-head-size }};
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* text-transform: uppercase; */
+    /* font-family: {{ site.data.template.font.primary }}; */
+    font-weight: 500;
+}
+
+h4 {
+    line-height: 145%;
+    letter-spacing: 0.8px;
+    font-size: {{ site.data.template.font.h4-head-size1 }};
+}
+
+.footer-col {
+    padding: 20px;
+}
+
 /* ------------- */
 /* media queries */
 /* ------------- */
@@ -194,7 +210,7 @@ section h2.about-heading {
 /* Customize header intro text placement and colour.  (Will depend on background image) */
 @media(min-width:{{site.data.template.media.midsize}}) {
     h4 {
-        font-size: 19px;
+        font-size: {{ site.data.template.font.h4-head-size2 }};
     }
     section h2.section-heading {
         font-size: {{ site.data.template.font.sec-head-size2 }};
@@ -246,6 +262,16 @@ section h2.about-heading {
 	}
     .navbar-default .navbar-brand {
         font-size: {{ site.data.template.font.brand-nav-collapse2 }};
+    }
+
+/* adjust timeline left and right padding*/
+    .timeline>li .timeline-panel {
+        /* WAS  padding: 0 20px 20px 30px;  */
+        padding: 0 20px 20px 10px;
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        /* WAS  padding: 0 30px 20px 20px;  */
+        padding: 0 10px 20px 20px;
     }
 }
 
@@ -312,7 +338,19 @@ section h2.about-heading {
 	header .container {
 		width: 970px;
 	}
+    
+/* adjust timeline left and right padding*/
+    .timeline>li .timeline-panel {
+        /* WAS padding: 0 20px 20px 100px; */
+        padding: 0 20px 20px 40px;
+    }
+  
+    .timeline>li.timeline-inverted>.timeline-panel {
+        /* WAS padding: 0 100px 20px 20px; */
+        padding: 0 40px 20px 20px;
+    }
 }
+
 @media(min-width:1200px) {
 	.navbar  .container,
 	header .container {
@@ -355,12 +393,6 @@ section h2.about-heading {
     }
 }
 
-section h3.section-subheading {
-    /* font was serif and italic */
-    font-family: {{ site.data.template.font.body }};
-    font-style: normal;
-    font-size: {{ site.data.template.font.sec-sub-head-size }};
-}
 section#contact h3.section-subheading {
     margin-bottom: 30px;
     color: #{{ site.data.template.color.light }};

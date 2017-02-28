@@ -17,11 +17,13 @@ font:
   primary: 'Rubik,"Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
   body: '"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif'
-  p-size: 110%
+  p-size: 1.2em
   large: 1.125em
-  sec-head-size1: 1.6em
+  sec-head-size1: 1.7em
   sec-head-size2: 2.3em
   sec-sub-head-size: 1.5em
+  h4-head-size1: 1.3em
+  h4-head-size2: 1.5em
   brand-nav-collapse1: 1.5em
   brand-nav-collapse2: 2em
 
@@ -74,6 +76,7 @@ header:
       line-height-desktop: 1.3em
       font-size-wide-desktop: 3em
       line-height-wide-desktop: 1.5em
+
   scroll-but:
     text-align: center
     padding-top: 0px
