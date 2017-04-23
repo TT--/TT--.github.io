@@ -479,8 +479,8 @@ ul.social-but-img li a {
     transition: all .3s;
 }
 
-.img-responsive-iconimg {
-    width:100% \9;
+.img-iconimg {
+    width:40px \9;
     max-width:100%;
     height:auto
 }

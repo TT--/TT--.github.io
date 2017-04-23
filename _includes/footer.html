@@ -23,7 +23,7 @@
                         <ul class="list-inline social-but-img">
                             {% for network in site.social-footer %}
                                 {% if network.icon == null %}
-                                    <li><a href="{{ network.url }}"><img class="img-responsive-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}"></a> </li>
+                                    <li><a href="{{ network.url }}"><img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}"></a> </li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
