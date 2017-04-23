@@ -5,7 +5,7 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
+    
     <!-- Refer to http://trezise.ca/README.md for licenses and attribution -->
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
@@ -28,4 +28,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <meta property="og:image" content="{{ site.baseurl }}/img/portfolio/masc-thumb.jpg" />
+    
 </head>
