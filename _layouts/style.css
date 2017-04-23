@@ -480,6 +480,8 @@ ul.social-but-img li a {
 }
 
 .img-iconimg {
+    width: 40px;
+    height: 40px;
     max-width:100%;
 }
 
