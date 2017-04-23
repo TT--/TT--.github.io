@@ -34,6 +34,14 @@ social-contact:
 social-footer:
   - title: stack-overflow
     url: http://stackoverflow.com/users/3066295/tt?tab=profile
+    icon: fa-stack-overflow
+  - title: github
+    url: https://github.com/TT--
+    icon: fa-github
+  - title: HackerRank
+    url: https://www.hackerrank.com/__T__
+    iconimgsrc: HackerRank_logo.svg
+    iconimgalt: HackerRank logo
 
 # Postal address (add as many lines as necessary)
 address:

@@ -463,10 +463,29 @@ ul.social-buttons li a {
     background-color: #{{ site.data.template.color.bg-darkest-gray }};
 }
 
+ul {
+    display: inline-block;
+}
+
+ul.social-but-img li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.img-iconimg {
+    max-width:100%;
+}
+
 .address {
     margin: 0 10px 0;
 }
-
 
 /* fixed or not both look ok */
 .portfolio-modal .close-modal {

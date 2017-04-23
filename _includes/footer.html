@@ -15,8 +15,16 @@
                         <h3>More Links</h3>
                         <ul class="list-inline social-buttons">
                             {% for network in site.social-footer %}
-                                <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                                    </li>
+                                {% if network.icon != null %}
+                                    <li><a href="{{ network.url }}"><i class="fa {{ network.icon }}"></i></a> </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                        <ul class="list-inline social-but-img">
+                            {% for network in site.social-footer %}
+                                {% if network.icon == null %}
+                                    <li><a href="{{ network.url }}"><img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}"></a> </li>
+                                {% endif %}
                             {% endfor %}
                         </ul>
                     </div>
