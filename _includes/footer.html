@@ -16,14 +16,18 @@
                         <ul class="list-inline social-buttons">
                             {% for network in site.social-footer %}
                                 {% if network.icon != null %}
-                                    <li><a href="{{ network.url }}"><i class="fa {{ network.icon }}"></i></a> </li>
+                                    <li class="social-buttons">
+										<a href="{{ network.url }}">
+											<i class="fa {{ network.icon }}"></i>
+										</a>
+									</li>
                                 {% endif %}
-                            {% endfor %}
-                        </ul>
-                        <ul class="list-inline social-but-img">
-                            {% for network in site.social-footer %}
                                 {% if network.icon == null %}
-                                    <li><a href="{{ network.url }}"><img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}"></a> </li>
+                                    <li class="social-but-img">
+										<a href="{{ network.url }}">
+											<img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}">
+										</a>
+									</li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
