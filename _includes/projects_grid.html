@@ -28,7 +28,16 @@
 					<p class="text-muted">{{ project.subtitle }}</p>
 				</div>
 			</div>
-		{% endfor %}
+				{% assign mod = forloop.index0 | modulo:2 %}
+				{% if mod == 1 %}
+					<!--
+					Fix extra rows caused by inconsistent heights
+					http://getbootstrap.com/css/#grid-responsive-resets
+					https://stackoverflow.com/a/19573033/3066295
+					-->
+					<div class="clearfix"></div>
+				{% endif %}
+		    {% endfor %}
 		</div>
 	</div>
 </section>
