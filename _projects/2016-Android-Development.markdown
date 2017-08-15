@@ -6,9 +6,9 @@ websitename: Concordia University - Department of Electrical and Computer Engine
 date: 2016-01-01
 img: and-dev.jpg
 thumbnail: and-dev-thumb.jpg
-alt: Screenshot of Android Studio integrated development environemnt
+alt: Screenshot of Android Studio integrated development environment
 description: >
-    **Developed** example Android apps (Java) that interface the mobile device with bluetooth low energy environmental sensor platforms.  
+    **Developed** example applications to demonstrate course topics.  Mobile devices interfaced with Bluetooth Low Energy BLE environmental sensor platforms.
 
 
     **Evaluated** wireless sensors for wearable applications according to ease-of-use, cost, reliability and physical size.  
@@ -17,5 +17,5 @@ description: >
     **CAD** design of 3D-printed enclosures.  
 
 
-    **Supervised** twenty 4-member teams annually instructing the Agile software development model and SCRUM techniques.
+    **Supervised** 80 students enrolled in the third-year Team Design Project course, acting as a scrum master for small teams learning the agile process.
 ---

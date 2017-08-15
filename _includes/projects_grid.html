@@ -8,8 +8,20 @@
 			</div>
 		</div>
 		<div class="row">
+            <!-- start with most recent projects -->
 			{% for project in site.projects reversed %}
-			<div class="col-md-6 col-sm-6 portfolio-item">
+                {% if forloop.last == true %}
+                    <!-- if it is last item and number of items is odd -->
+                    {% if forloop.index | modulo: 2 == 1 %}
+                        <!-- center the odd item -->
+                        <div class="col-md-12 col-sm-12 portfolio-item">
+                    {% else %}
+                        <div class="col-md-6 col-sm-6 portfolio-item">
+                    {% endif %}
+                {% else %}
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                {% endif %}
+                
 				<a href="#portfolioModal{{ forloop.index }}" class="portfolio-link" data-toggle="modal">
 					<div class="portfolio-hover">
 						<div class="portfolio-hover-content">
