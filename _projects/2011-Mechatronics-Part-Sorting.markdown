@@ -18,4 +18,7 @@ description: >
 
 
     **Solved** switch bouncing using an integer variable as a shift register.
+
+
+    **Linked queue** stores known objects: enqueue a part when classified, dequeue a part leaving the belt.  A count of measured and sorted parts is displayed on LEDs.
 ---
