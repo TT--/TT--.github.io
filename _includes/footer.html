@@ -18,14 +18,14 @@
                                 {% if network.icon != null %}
                                     <li class="social-buttons">
 										<a href="{{ network.url }}">
-											<i class="fa {{ network.icon }}"></i>
+											<i class="fa {{ network.icon }}" title="{{ network.title }}"></i>
 										</a>
 									</li>
                                 {% endif %}
                                 {% if network.icon == null %}
                                     <li class="social-but-img">
 										<a href="{{ network.url }}">
-											<img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}">
+											<img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}" title="{{ network.iconimgalt }}">
 										</a>
 									</li>
                                 {% endif %}

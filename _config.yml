@@ -3,7 +3,7 @@ baseurl:
 repository: tt--/tt--.github.io
 
 # Site settings
-description: "Tyler Trezise: Professional engineer in Ottawa Canada interested in embedded and mobile development."
+description: "Professional engineer in Ottawa, Canada interested in software and embedded."
 title: Tyler Trezise, P.Eng.
 title-allcaps: TYLER TREZISE, P.Eng.
 
@@ -24,24 +24,27 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # refer to: http://fontawesome.io/icons/
 social-contact:
-  - title: envelope
+  - icon: envelope
+    title: Send me an email
     url: http://www.google.com/recaptcha/mailhide/d?k=01Fqo5M4sCOuHDBWiglleMWQ==&c=9dTla-ArGgmyk4CgVqhCG_6c0hHHLmtxC53H-Ftk7lY=
-  - title: linkedin
+  - icon: linkedin
+    title: LinkedIn profile
     url: http://ca.linkedin.com/in/tylertrezise
-  - title: skype
+  - icon: skype
+    title: Call me via Skype
     url: skype:tylert7?call
 
 social-footer:
-  - title: stack-overflow
+  - title: Stack Overflow profile
     url: http://stackoverflow.com/users/3066295/tt?tab=profile
     icon: fa-stack-overflow
-  - title: github
+  - title: GitHub profile
     url: https://github.com/TT--
     icon: fa-github
   - title: HackerRank
     url: https://www.hackerrank.com/__T__
     iconimgsrc: HackerRank_logo.svg
-    iconimgalt: HackerRank logo
+    iconimgalt: HackerRank profile
 
 # Postal address (add as many lines as necessary)
 address:

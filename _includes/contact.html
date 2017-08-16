@@ -13,7 +13,7 @@
                         <ul class="list-inline">
                             {% for network in site.social-contact %}
                             <li>
-								<a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-4x fa-{{ network.title }}"></i></a>
+								<a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-4x fa-{{ network.icon }}" title="{{ network.title}}"></i></a>
                             </li>
                             {% endfor %}
                         </ul>
