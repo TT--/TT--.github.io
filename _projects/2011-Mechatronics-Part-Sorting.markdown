@@ -17,11 +17,11 @@ description: >
     **Implemented** interrupts handling ADC results and inputs from optical and Hall Effect sensors.
 
 
+    **Linked queue** stores known objects: enqueue as part is classified and dequeue when part leaves the belt.  LEDs display a count of measured and sorted parts.
+
+
     **Adapted** design to address physical hardware constraints: Increased speed of parts bin rotation (system bottleneck) by dynamically adjusting delay between motor coil energizations.
 
 
     **Solved** switch bouncing in software by sampling a bit stream to detect transition edge.
-
-
-    **Linked queue** stores known objects: enqueue as part is classified and dequeue when part leaves the belt.  LEDs display a count of measured and sorted parts.
 ---
