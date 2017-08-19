@@ -1,24 +1,27 @@
 ---
 title: Parts Inspection and Sorting System
-subtitle: Atmel AVR-controlled conveyor belt
+subtitle: Conveyor Belt, 4 sensors, 2 motors, Microcontroller
 websiteurl: https://github.com/TT--/projects-portfolio/blob/master/sorting-system.c
 websitename: C Code on GitHub
 date: 2011-01-02
 img: mecha.jpg
 thumbnail: mecha-thumb.jpg
-alt: Magnetic modelling of inductively coupled coils for wireless power
+alt: Parts inspection and sorting system using AVR microcontroller.
 description: >
-    The position of an object is detected by phototransistor as it moves down a conveyor. The relative surface reflectivity is measured for 4 object types.  A container rotated by stepper motor is positioned to catch the object as it leaves the conveyor.
+    Sorting system for four types of object: white or black plastic, aluminum or steel.
+    
+    
+    As it moves down the conveyor, the part's position is detected by phototransistor.  Another sensor is then activated to measure its relative surface reflectivity.  A container rotated by stepper motor is positioned to catch the object as it leaves the conveyor.
 
 
-    **Implemented** interrupts to handle ADC results and monitor inputs from optical and Hall Effect sensors.
+    **Implemented** interrupts handling ADC results and inputs from optical and Hall Effect sensors.
 
 
-    **Adapted** design to address hardware physical characteristics: Increased speed of parts bin rotation (system bottleneck) by dynamically adjusting motor coil energization delays.
+    **Adapted** design to address physical hardware constraints: Increased speed of parts bin rotation (system bottleneck) by dynamically adjusting delay between motor coil energizations.
 
 
-    **Solved** switch bouncing using an integer variable as a shift register.
+    **Solved** switch bouncing in software by sampling a bit stream to detect transition edge.
 
 
-    **Linked queue** stores known objects: part is enqueued when classified and dequeued when leaving the belt.  A count of measured and sorted parts is displayed by LEDs.
+    **Linked queue** stores known objects: enqueue as part is classified and dequeue when part leaves the belt.  LEDs display a count of measured and sorted parts.
 ---
