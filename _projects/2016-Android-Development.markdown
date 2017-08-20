@@ -1,6 +1,7 @@
 ---
 title: Development of Android App Examples
 subtitle: For Third-Year Engineering Design Course
+linktext: Android-development
 websiteurl: http://www.ece.concordia.ca/
 websitename: Concordia University - Department of Electrical and Computer Engineering   
 date: 2016-01-01

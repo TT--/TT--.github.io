@@ -1,6 +1,7 @@
 ---
 title: Industrial Automation
 subtitle: For Waste-to-Energy Solutions
+linktext: automation-experience
 websiteurl: http://www.terragon.net/
 websitename: Terragon Environmental Technologies
 date: 2014-01-01

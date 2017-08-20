@@ -1,6 +1,7 @@
 ---
 title: Master of Applied Science
 subtitle: Magnetic Modelling of Inductively Coupled Coils for Wireless Power
+linktext: MASc-thesis
 websiteurl: http://hdl.handle.net/1828/3502
 websitename: Thesis at University of Victoria Library DSpace Repository
 date: 2011-01-01

@@ -22,13 +22,13 @@
                     <div class="col-md-6 col-sm-6 portfolio-item">
                 {% endif %}
                 
-				<a href="#portfolioModal{{ forloop.index }}" class="portfolio-link" data-toggle="modal">
+				<a href="#{{ project.linktext }}" class="portfolio-link" data-toggle="modal">
 					<div class="portfolio-hover">
 						<div class="portfolio-hover-content">
 							<i class="fa fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img src="{{ site.baseurl }}/img/portfolio/{{ project.thumbnail }}" class="img-responsive img-centered" alt="{{ project.alt }}" title="{{ project.alt }}">
+					<img src="{{ site.baseurl }}/img/portfolio/{{ project.thumbnail }}" class="img-responsive img-centered" alt="">
 					<!-- test of a different caption style
 					<span class="portfolio-cap text-center">
 						<h4>{{ project.title }}</h4>

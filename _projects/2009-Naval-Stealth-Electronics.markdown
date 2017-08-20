@@ -1,6 +1,7 @@
 ---
 title: Analog Electronics
 subtitle: For Naval Stealth Applications
+linktext: analog-electronics-experience
 websiteurl: http://www.davis-eng.com
 websitename: Davis-Eng.com
 date: 2009-01-01
