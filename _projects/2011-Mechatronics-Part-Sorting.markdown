@@ -12,16 +12,16 @@ description: >
     Sorting system for four types of object: white or black plastic, aluminum or steel.
     
     
-    As it moves down the conveyor, the part's position is detected by phototransistor.  Another sensor is then activated to measure its relative surface reflectivity.  A container rotated by stepper motor is positioned to catch the object as it leaves the conveyor.
+    As it moves down the conveyor, a part is detected in front of a reflective photo-sensor by a separate photo-transistor.  The relative surface reflectivity of the part is measured and used to classify it.  A container rotated by stepper motor is positioned to catch the object as it leaves the conveyor.
 
 
     **Implemented** interrupts handling ADC results and inputs from optical and Hall Effect sensors.
 
 
-    **Linked queue** stores known objects: enqueue as part is classified and dequeue when part leaves the belt.  LEDs display a count of measured and sorted parts.
+    **Linked queue** stores known objects: enqueue when part is classified and dequeue as part leaves the belt.  LEDs display a count of measured and sorted parts.
 
 
-    **Adapted** design to address physical hardware constraints: Increased speed of parts bin rotation (system bottleneck) by dynamically adjusting delay between motor coil energizations.
+    **Surmounted** physical constraints of hardware: Increased speed of parts bin rotation (system bottleneck) by dynamically adjusting delay between motor coil energizations.
 
 
     **Solved** switch bouncing in software by sampling a bit stream to detect transition edge.
