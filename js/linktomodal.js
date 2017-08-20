@@ -11,8 +11,8 @@
 
 $(document).ready(function() {
     {% for project in site.projects %}
-        if(window.location.href.indexOf('#portfolioModal{{ forloop.index }}') != -1) {
-            $('#portfolioModal{{ forloop.index }}').modal('show');
+        if(window.location.href.indexOf('#{{ project.linktext }}') != -1) {
+            $('#{{ project.linktext }}').modal('show');
         }
     {% endfor %}
 });
