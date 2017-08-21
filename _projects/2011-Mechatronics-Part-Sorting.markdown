@@ -1,6 +1,6 @@
 ---
 title: Parts Inspection and Sorting System
-subtitle: Conveyor Belt, 4 sensors, 2 motors, Microcontroller
+subtitle: Microcontroller with Interrupt-Driven I/O
 linktext: microcontroller-C-project
 websiteurl: https://github.com/TT--/projects-portfolio/blob/master/sorting-system.c
 websitename: C Code on GitHub
