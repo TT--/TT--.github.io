@@ -1,7 +1,7 @@
 icon,title,descrip
-flaticon-browser,Software Development,"Android Java C Assembly"
+flaticon-browser,Software Development,"Java, C, Assembly, Python, Android"
 flaticon-soldering-machine,Electronics,Analog & Digital
-flaticon-computer-2, Microcontroller Implementation,68HC11 & Atmel AVR
-fa-code-fork,Version Control, Git & TortoiseSVN
+flaticon-computer-2, Microcontroller Implementation,"Including AVR & 68HC11"
+fa-code-fork,Configuration Management,"Version Control, git, svn"
 flaticon-technology,Industrial Process Automation,Power and Control Circuit Design
-flaticon-mesh,Finite Element Modelling,With Comsol Multi-Physics
+flaticon-mesh,Finite Element Analysis,Comsol Multi-Physics Modelling
