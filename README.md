@@ -1,7 +1,8 @@
-Readme
+Tyler's portfolio site
 ======
-
 Copyright © 2016 Tyler Trezise
+
+[![Build Status](https://travis-ci.org/TT--/TT--.github.io.svg?branch=master)](https://travis-ci.org/TT--/TT--.github.io)
 
 Based on ["Agency" Jekyll theme](http://jekyllthemes.org/themes/agency/) which is the Jekyll version of [Start Bootstrap - Agency Bootstrap Theme](http://startbootstrap.com/template-overviews/agency/) which is "based off of the Golden PSD Theme by Mathavan Jaya".
 
