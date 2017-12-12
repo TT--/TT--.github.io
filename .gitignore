@@ -1,14 +1,21 @@
-_site
+# https://github.com/github/gitignore/blob/master/Jekyll.gitignore
+_site/
 .sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-.bundle
 
-# Windows image file caches
+# https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+
+# Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
 
 # Folder config file
-Desktop.ini
+[Dd]esktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
@@ -19,11 +26,43 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# Icon must ends with two \r.
-Icon
-# Thumbnails
-._*
+# Windows shortcuts
+*.lnk
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+
+https://github.com/github/gitignore/blob/master/Ruby.gitignore
+
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Used by dotenv library to load environment variables.
+# .env
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+
+Gemfile.lock
+.ruby-version
+.ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+
+# bundler
+.bundle
+vendor

@@ -1,4 +1,6 @@
+# https://help.github.com/articles/viewing-jekyll-build-error-messages/#configuring-a-third-party-service-to-display-jekyll-build-error-messages
+
 language: ruby
 rvm:
-- 2.4.2
+- 2.1
 script: "bundle exec jekyll build"
