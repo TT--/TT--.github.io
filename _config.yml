@@ -35,12 +35,18 @@ social-contact:
     url: skype:tylert7?call
 
 social-footer:
+  - title: Google Scholar profile
+    url: https://scholar.google.com/citations?user=PxUZ8YQAAAAJ
+    icon: ai-google-scholar
+    icontype: ai
   - title: Stack Overflow profile
     url: http://stackoverflow.com/users/3066295/tt?tab=profile
     icon: fa-stack-overflow
+    icontype: fa
   - title: GitHub profile
     url: https://github.com/TT--
     icon: fa-github
+    icontype: fa
   - title: HackerRank
     url: https://www.hackerrank.com/__T__
     iconimgsrc: HackerRank_logo.svg
@@ -48,7 +54,7 @@ social-footer:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Ottawa, ON
+  - line: Ottawa
   - line: Canada
 
 # Build settings

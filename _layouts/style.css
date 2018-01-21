@@ -1,10 +1,3 @@
-{% include css/bootstrap.min.css %}
-{% include css/agency.css %}
-
-.bg-png {
-	background: ##{{ site.data.template.color.light }} url({{ site.baseurl }}/img/light_mosaic.png) repeat 0 0;
-}
-
 /* 
  * Fix the flaticon CSS so icons can stack using font-awesome CSS
  */
@@ -15,17 +8,29 @@
 }
 
 /* 
- * Overide some of the Agency theme CSS to
- * - change colours and fonts
- * - parametrize some values
+ * include css/bootstrap.min.css
  */
+{% include css/bootstrap.min.css %}
+
+/* 
+ * include css/agency.css
+ */
+{% include css/agency.css %}
+
+/* 
+ * _layouts/style.css
+ *
+ * Overrides some of the Agency theme CSS
+ */
+.bg-png {
+	background: ##{{ site.data.template.color.light }} url({{ site.baseurl }}/img/light_mosaic.png) repeat 0 0;
+}
 body {
 	font-family: {{ site.data.template.font.body }};
 }
 .text-muted {
 	color: #{{ site.data.template.color.muted }};
 }
-
 p {
     font-size: {{ site.data.template.font.p-size }};
     line-height: 175%;
@@ -45,7 +50,7 @@ a.header-scroll-but {
 .header-scroll-but.active {
     color: #{{ site.data.template.color.secondary }};
 }
-a.btn-social {
+a.contact-buttons {
 	-webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -459,45 +464,6 @@ section#contact {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-li.social-buttons a {
-	/* color: #{{ site.data.template.color.light }};
-    background-color: #{{ site.data.template.color.bg-darkest-gray }};
-    display: inline-block;
-	width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 23px;
-	line-height: 1.7em;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s; */
-}
-
-/* li.social-but-img a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 1.7em;
-
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-} */
-li.social-but-img a {
-background-color: #{{ site.data.template.color.light }} !important;
-}
-
-.img-iconimg {
-    width:40px \9;
-    max-width:100%;
-    height:auto
-}
-
-.address {
-    margin: 0 10px 0;
-}
 
 /* fixed or not both look ok */
 .portfolio-modal .close-modal {
@@ -526,7 +492,7 @@ background-color: #{{ site.data.template.color.light }} !important;
     text-align: justify;
 }
 
-/* separate close 'x' from text a little */
+/* Modal windows - separate close 'x' from text a little */
 .modal-body .btn i {
     margin-right: 5px;
 }
@@ -536,8 +502,41 @@ background-color: #{{ site.data.template.color.light }} !important;
     margin-right: auto;
 }
 
+.address {
+    margin: 0 10px 0;
+}
+
 .img-padded {
     padding: 20px 15px;
+}
+
+li.social-but-img a {
+    background-color: #{{ site.data.template.color.light }} !important;
+}
+
+.img-iconimg {
+    width:40px \9;
+    max-width:100%;
+    height:auto
+}
+
+ul.social-buttons li a {
+/*    display: block; */
+    width: 2em;
+    height: 2em;
+    /*
+    border-radius: 100%;
+    */
+    font-size: 2em;
+    line-height: 2em;
+    /*
+        outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    */
 }
 
 {{ content }}

@@ -30,7 +30,7 @@ $RECYCLE.BIN/
 *.lnk
 
 
-https://github.com/github/gitignore/blob/master/Ruby.gitignore
+# https://github.com/github/gitignore/blob/master/Ruby.gitignore
 
 *.gem
 *.rbc
