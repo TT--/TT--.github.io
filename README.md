@@ -9,36 +9,41 @@ Based on ["Agency" Jekyll theme](http://jekyllthemes.org/themes/agency/) which i
 Start Bootstrap Agency theme Copyright 2013-2015 Iron Summit Media Strategies, LLC and licensed under the [Apache License v2.0](/Start-Bootstrap-Agency-LICENSE/LICENSE).
 
 agency.js
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
 
 bootstrap.js from Bootstrap v3.2.0 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+* Copyright 2011-2014 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
 cbpAnimatedHeader.js v1.0.0
- * Copyright 2013, Codrops (http://www.codrops.com) Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
+* Copyright 2013, Codrops (http://www.codrops.com) Licensed under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
 
 classie.js - class helper functions
- * from Bonzo https://github.com/ded/bonzo, Copyright © 2014 Dustin Diaz @ded and licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. 
+* from Bonzo https://github.com/ded/bonzo, Copyright © 2014 Dustin Diaz [@ded](https://twitter.com/ded)
+* licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. 
  
-jQuery Easing v1.3 (http://gsgd.co.uk/sandbox/jquery/easing/) uses the built in easing capabilities added In jQuery 1.1 to offer multiple easing options
+jQuery Easing v1.3
+* http://gsgd.co.uk/sandbox/jquery/easing/
+* uses the built in easing capabilities added in jQuery 1.1 to offer multiple easing options
+* EASING EQUATIONS Copyright © 2001 Robert Penner.  All rights reserved.
+  * Open source under the BSD License.
+* jQuery Easing Copyright © 2008 George McGinley Smith.  All rights reserved.
+  * Open source under the BSD License.
 
-* TERMS OF USE - EASING EQUATIONS
-  * Open source under the BSD License.
-  * Copyright © 2001 Robert Penner.  All rights reserved.
-  
-* TERMS OF USE - jQuery Easing
-  * Open source under the BSD License.
-  * Copyright © 2008 George McGinley Smith.  All rights reserved.
- 
 bootstrap.min.css from Bootswatch v3.2.0 Based on Bootstrap
- * Copyright 2012-2014 Thomas Park, Licensed under MIT
  * http://bootswatch.com
- 
-Some icons are from <a href="http://www.flaticon.com">flaticon.com</a>
- * Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="soldering-machine" href="http://www.freepik.com">Freepik</a>, <a data-file="people-1" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a>, <a data-file="mesh" href="http://www.flaticon.com/authors/darius-dan">Darius Dan</a>, <a data-file="tesla-coil" href="http://www.flaticon.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a>, <a data-file="technology-1" href="http://www.flaticon.com/authors/eucalyp">Eucalyp</a>, <a data-file="browser" href="http://www.flaticon.com/authors/retinaicons">Retinaicons</a>
+ * Copyright 2012-2014 Thomas Park
+ * Licensed under MIT
 
-Some icons are from Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+icons
+* Flaticon - http://www.flaticon.com
+  * Licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="soldering-machine" href="http://www.freepik.com">Freepik</a>, <a data-file="people-1" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a>, <a data-file="mesh" href="http://www.flaticon.com/authors/darius-dan">Darius Dan</a>, <a data-file="tesla-coil" href="http://www.flaticon.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a>, <a data-file="technology-1" href="http://www.flaticon.com/authors/eucalyp">Eucalyp</a>, <a data-file="browser" href="http://www.flaticon.com/authors/retinaicons">Retinaicons</a>
+* Font Awesome 4.7.0 by [@davegandy](https://twitter.com/davegandy)
+  * http://fontawesome.io
+  * License: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+* Academicons
+  * http://jpswalsh.github.io/academicons/
+  * The Academicons font is licensed under the SIL OFL 1.1: http://scripts.sil.org/OFL
+  * Academicons CSS, LESS, and SASS files are licensed under the MIT License: http://opensource.org/licenses/mit-license.html
