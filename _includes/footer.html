@@ -8,20 +8,20 @@
                     {% for network in site.social-footer %}
                         {% if network.icon != null %}
                             <li>
-                                <a href="{{ network.url }}">
+                                <a href="{{ network.url }}" title="{{ network.title }}">
                                     {% if network.icontype == "ai" %}
-                                        <i class="ai {{ network.icon }}" title="{{ network.title }}"></i>
+                                        <i class="ai {{ network.icon }}"></i>
                                     {% endif %}
                                     {% if network.icontype == "fa" %}
-                                        <i class="fa {{ network.icon }}" title="{{ network.title }}"></i>
+                                        <i class="fa {{ network.icon }}""></i>
                                     {% endif %}
                                 </a>
                             </li>
                         {% endif %}
                         {% if network.icon == null %}
                             <li class="social-but-img">
-                                <a href="{{ network.url }}">
-                                    <img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}" title="{{ network.iconimgalt }}">
+                                <a href="{{ network.url }}" title="{{ network.iconimgalt }}">
+                                    <img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}">
                                 </a>
                             </li>
                         {% endif %}
