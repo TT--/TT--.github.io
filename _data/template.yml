@@ -1,6 +1,6 @@
 # Color settings (hex color codes without the leading hash)
 color:
-  primary: 3f8abe # was 64a1cc 8EC2E6 639ac9 2196F3
+  primary: fff # Effects buttons, was 64a1cc 8EC2E6 639ac9 2196F3 3f8abe
   secondary: 2c5a80 # was 0b7dda
   secondary-dark: 183247 # was 053861
   light: fff
@@ -8,8 +8,8 @@ color:
   header:  fff # 64a1cc
   header-desktop: 3f8abe # brand
   navbar-items: 3f8abe # brand
-  muted: 777
-  bg-darkest-gray: 222
+  muted: 183247 # was 777
+  bg-darkest-gray: 183247 # was 222
 
 # Font Families and base sizes
 font:
@@ -29,42 +29,36 @@ font:
 
 # For font centering
 media:
-  midsize: 545px
-  wide-desktop: 2000px
+  midsize:
+  wide-desktop:
 
 # Header strings with padding and scroll-but
 header:
   #background-position: 50% 20%
   #background-position: left/right/center top/center/bottom
   #background-position: left top
-  background-position: left 40%
-  nav:
-    text:
-      align: center
-    # For navbar breakpoint width
-    populated-width: 835px
-    #value above plus 15px
-    newbreakpoint: 850px
+  #background-position: left 40%
+  background-position: center center
 
   intro:
     text:
-      align: right
+      align: center
       align-midsize: center
-      align-desktop: left
-      padding-top: 170px
-      padding-bottom: 40px
-      padding-top-mid: 190px
-      padding-top-desktop: 60px
-      padding-bottom-desktop: 300px
-      padding-top-wide-desktop: 120px
+      align-desktop: center
+      padding-top: 50px
+      padding-bottom: 50px
+      padding-top-mid: 50px
+      padding-top-desktop: 50px
+      padding-bottom-desktop: 50px
+      padding-top-wide-desktop: 50px
     lead-in:
-      string: # header lead-in text
-      font-size:
-      line-height:
-      font-size-mid:
-      line-height-mid:
-      font-size-desktop:
-      line-height-desktop:
+      string: Tyler Trezise, P.Eng.
+      font-size: 3em
+      line-height: 1.5em
+      font-size-mid: 2.5em
+      line-height-mid: 1.5em
+      font-size-desktop: 2.1em
+      line-height-desktop: 1.3em
     heading:
       string: Engineer & <br/> Problem Solver
       font-size: 2.1em
@@ -75,10 +69,3 @@ header:
       line-height-desktop: 1.3em
       font-size-wide-desktop: 3em
       line-height-wide-desktop: 1.5em
-
-  scroll-but:
-    text-align: center
-    padding-top: 0px
-    padding-top-desktop: 0px
-    padding-bottom: 50px
-    padding-bottom-desktop: 100px
