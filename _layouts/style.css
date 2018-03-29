@@ -24,6 +24,7 @@
  */
 body {
 	font-family: {{ site.data.template.font.body }};
+    line-height: 1.6;
 }
 .text-muted {
 	color: #{{ site.data.template.color.muted }};
@@ -35,10 +36,22 @@ p {
 p.large {
     font-size: {{ site.data.template.font.large }};
 }
+
+a.contact-buttons:hover,
+a.contact-buttons:focus,
+a.contact-buttons:active,
 a.contact-buttons {
-	-webkit-transition: all .3s;
+    color: #{{ site.data.template.color.light }};;
+}
+
+a.contact-buttons {
+	color: #{{ site.data.template.color.secondary }};
+    -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+}
+a.credits {
+	color: #{{ site.data.template.color.secondary-dark }};
 }
 .bg-darkest-gray {
     background-color: #{{ site.data.template.color.bg-darkest-gray }};
@@ -68,6 +81,8 @@ a.contact-buttons {
 header {  
     text-align: inherit;
 	color: #{{ site.data.template.color.header }};
+    background-image: none;
+    background-color: #{{ site.data.template.color.backgnd }};
     background-position: {{ site.data.template.header.background-position }};
 }
 header .intro-text {
@@ -79,7 +94,8 @@ header .intro-text .intro-lead-in {
     font-family: {{ site.data.template.font.body }};
     font-style: normal;
     font-weight: 900;
-    color: #{{ site.data.template.color.secondary-dark }};
+    /* color: #{{ site.data.template.color.secondary-dark }}; */
+    color: #{{ site.data.template.color.light }};
     font-size: {{ site.data.template.header.intro.lead-in.font-size}};
     line-height: {{ site.data.template.header.intro.lead-in.line-height}};
 	letter-spacing: 1px;
@@ -87,7 +103,8 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
 	/* was font.primary */
 	font-family: {{ site.data.template.font.body }};
-    color: #{{ site.data.template.color.secondary-dark }};
+    /* color: #{{ site.data.template.color.secondary-dark }}; */
+    color: #{{ site.data.template.color.secondary }};
     font-size: {{ site.data.template.header.intro.heading.font-size}};
     line-height: {{ site.data.template.header.intro.heading.line-height}};
 	letter-spacing: 1px;
@@ -112,19 +129,13 @@ header .f04-text {
     padding-bottom: 15px;
 }
 
-section h2.section-heading {
+h2.section-heading {
     font-size: {{ site.data.template.font.sec-head-size1 }};
+    margin-top: 80px;
 }
 
-section h2.about-heading {
-	font-size: {{ site.data.template.font.sec-head-size1 }};
-	/* margin-top: 100px; */
-	margin-bottom: 15px;
-}
-
-section h3.section-subheading {
-    /* font was serif and italic */
-    font-family: {{ site.data.template.font.body }};
+h3.section-subheading {
+    /*  font-family: {{ site.data.template.font.body }};  */
     font-style: normal;
     font-size: {{ site.data.template.font.sec-sub-head-size }};
 }
@@ -146,83 +157,12 @@ h4 {
     font-size: {{ site.data.template.font.h4-head-size1 }};
 }
 
-/* ------------- */
-/* media queries */
-/* ------------- */
-
-/* Customize header intro text placement and colour.  (Will depend on background image) */
-@media(min-width:{{site.data.template.media.midsize}}) {
-    h4 {
-        font-size: {{ site.data.template.font.h4-head-size2 }};
-    }
-    section h2.section-heading {
-        font-size: {{ site.data.template.font.sec-head-size2 }};
-    }
-    section h2.about-heading {
-        font-size: {{ site.data.template.font.sec-head-size2 }};
-	}
-    header .intro-text {
-        text-align: {{site.data.template.header.intro.text.align-midsize}};
-        padding-top: {{site.data.template.header.intro.text.padding-top-mid}}
-    }
-    header .intro-text .intro-lead-in {
-        font-size: {{ site.data.template.header.intro.lead-in.font-size-mid}};
-        line-height: {{ site.data.template.header.intro.lead-in.line-height-mid}};
-    }
-    header .intro-text .intro-heading {
-        font-size: {{ site.data.template.header.intro.heading.font-size-mid}};
-        line-height: {{ site.data.template.header.intro.heading.line-height-mid}};
-    }
-    .gridlist{
-	   width: 33.3%;
-       height: 236.5px;
-       padding-top: 30px;
-       padding-bottom: 30px;
-    }
-}
-
-@media(min-width:{{site.data.template.header.nav.populated-width}}) {
-    header {     
-	    color: #{{ site.data.template.color.header-desktop }};
-    }
-	header .intro-text {
-        text-align: {{site.data.template.header.intro.text.align-desktop}};
-		padding-top: {{site.data.template.header.intro.text.padding-top-desktop}};
-        padding-bottom: {{site.data.template.header.intro.text.padding-bottom-desktop}};
-		padding-left: 0px;
-    }
-	header .intro-text .intro-lead-in {
-        font-size: {{ site.data.template.header.intro.lead-in.font-size-desktop}};
-        line-height: {{ site.data.template.header.intro.lead-in.line-height-desktop}};
-        }
-    header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        font-size: {{ site.data.template.header.intro.heading.font-size-desktop}};
-        line-height: {{ site.data.template.header.intro.heading.line-height-desktop}};
-    }
-
-}
-
-@media(min-width:{{site.data.template.media.wide-desktop}}) {
-	header .intro-text {
-        padding-top: {{site.data.template.header.intro.text.padding-top-wide-desktop}}
-    }
-	header .intro-text .intro-heading {
-        font-size: {{ site.data.template.header.intro.heading.font-size-wide-desktop}};
-		line-height: {{ site.data.template.header.intro.heading.line-height-wide-desktop}};
-    }
-}
-
-
-section#contact h3.section-subheading {
-    margin-bottom: 30px;
-}
 
 .list-inline>li {
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .row {
@@ -252,30 +192,83 @@ ul.list-inline.social-buttons
 {
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 80px;
     
 }
 
 ul.social-buttons li a {
-/*    display: block; */
+    color: #{{ site.data.template.color.secondary}};
+    background-color: #{{ site.data.template.color.secondary-dark}};
+    /*    display: block; */
     width: 2em;
     height: 2em;
-    /*
-    border-radius: 100%;
-    */
     font-size: 2em;
     line-height: 2em;
     /*
-        outline: 0;
-    color: #fff;
-    background-color: #222;
+    outline: 0;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
     */
 }
 
+.author {
+    margin: 40px;
+    max-width: {{site.data.template.header.author-max-width}};
+    padding: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+}
 
+/* ------------- */
+/* media queries */
+/* ------------- */
+
+/* Customize header intro text placement and colour.  (Will depend on background image) */
+@media(min-width:{{site.data.template.media.midsize}}) {
+    .author {
+    max-width: {{site.data.template.header.author-max-width-midsize}};
+    }
+    h4 {
+        font-size: {{ site.data.template.font.h4-head-size2 }};
+    }
+    section h2.section-heading {
+        font-size: {{ site.data.template.font.sec-head-size2 }};
+    }
+    section h2.about-heading {
+        font-size: {{ site.data.template.font.sec-head-size2 }};
+	}
+    header .intro-text {
+        text-align: {{site.data.template.header.intro.text.align-midsize}};
+        padding-top: {{site.data.template.header.intro.text.padding-top-mid}}
+    }
+    header .intro-text .intro-lead-in {
+        font-size: {{ site.data.template.header.intro.lead-in.font-size-mid}};
+        line-height: {{ site.data.template.header.intro.lead-in.line-height-mid}};
+    }
+    header .intro-text .intro-heading {
+        font-size: {{ site.data.template.header.intro.heading.font-size-mid}};
+        line-height: {{ site.data.template.header.intro.heading.line-height-mid}};
+    }
+    .gridlist{
+	   width: 33.3%;
+       height: 236.5px;
+       padding-top: 30px;
+       padding-bottom: 30px;
+    }
+}
+
+
+@media(min-width:{{site.data.template.media.wide-desktop}}) {
+	header .intro-text {
+        padding-top: {{site.data.template.header.intro.text.padding-top-wide-desktop}}
+    }
+	header .intro-text .intro-heading {
+        font-size: {{ site.data.template.header.intro.heading.font-size-wide-desktop}};
+		line-height: {{ site.data.template.header.intro.heading.line-height-wide-desktop}};
+    }
+}
 
 {{ content }}

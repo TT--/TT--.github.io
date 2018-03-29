@@ -2,59 +2,58 @@
 <header>
 
     <div class="container text-center">
-                       
+        <img src="img/author.jpg" class="author" alt="photo of website author">
         <div class="intro-text">
           <h2 class="intro-lead-in">{{site.data.template.header.intro.lead-in.string}}</h2>
           <div class="intro-heading">{{site.data.template.header.intro.heading.string}}</div>
         </div>
         
 <!-- Contact -->
-                <h2 class="section-heading">Contact Me:</h2>
-                <br>
-                <ul class="list-inline">
-                {% for network in site.social-contact %}
-                    <li>
-                        <a href="{{ network.url }}" class="contact-buttons btn-outline"><i class="fa fa-4x fa-{{ network.icon }}" title="{{ network.title}}"></i></a>
-                    </li>
-                {% endfor %}
-                </ul>
-                <img src="img/contact-info.png" class="img-responsive img-centered img-padded" alt="email address and phone number">
-                <h3 class="section-subheading">
-                    {% for address in site.address %}
-                        <span class="address"> {{ address.line }} </span>
-                    {% endfor %}
-                </h3>
+        <h2 class="section-heading">Contact Me:</h2>
+        <br>
+        <ul class="list-inline">
+        {% for network in site.social-contact %}
+            <li>
+                <a href="{{ network.url }}" class="contact-buttons btn-outline"><i class="fa fa-4x fa-{{ network.icon }}" title="{{ network.title}}"></i></a>
+            </li>
+        {% endfor %}
+        </ul>
+        <img src="img/contact-info.png" class="img-responsive img-centered img-padded" alt="email address and phone number">
+        <h3 class="section-subheading">
+            {% for address in site.address %}
+                <span class="address"> {{ address.line }} </span>
+            {% endfor %}
+        </h3>
          
-            <ul class="list-inline social-buttons">
-                {% for network in site.social-footer %}
-                    {% if network.icon != null %}
-                        <li>
-                            <a href="{{ network.url }}" title="{{ network.title }}">
-                                {% if network.icontype == "ai" %}
-                                    <i class="ai {{ network.icon }}"></i>
-                                {% endif %}
-                                {% if network.icontype == "fa" %}
-                                    <i class="fa {{ network.icon }}""></i>
-                                {% endif %}
-                            </a>
-                        </li>
-                    {% endif %}
-                    {% if network.icon == null %}
-                        <!-- TODO: FIX img buttons
-                        <li class="social-but-img">
-                            <a href="{{ network.url }}" title="{{ network.iconimgalt }}">
-                                <img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}">
-                            </a>
-                        </li>
-                        -->
-                    {% endif %}
-                {% endfor %}
-            </ul>
-      
-                <br>
-                <br>
-                Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}
-                <br>
-                <a href="https://github.com/TT--/TT--.github.io/blob/master/README.md">Credits and attribution</a>
+        <ul class="list-inline social-buttons">
+            {% for network in site.social-footer %}
+                {% if network.icon != null %}
+                    <li>
+                        <a href="{{ network.url }}" title="{{ network.title }}">
+                            {% if network.icontype == "ai" %}
+                                <i class="ai {{ network.icon }}"></i>
+                            {% endif %}
+                            {% if network.icontype == "fa" %}
+                                <i class="fa {{ network.icon }}""></i>
+                            {% endif %}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if network.icon == null %}
+                    <!-- TODO: FIX img buttons
+                    <li class="social-but-img">
+                        <a href="{{ network.url }}" title="{{ network.iconimgalt }}">
+                            <img class="img-iconimg" src="{{ site.baseurl }}/img/{{ network.iconimgsrc }}" alt="{{ network.iconimgalt }}">
+                        </a>
+                    </li>
+                    -->
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <br>
+        <br>
+        Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}
+        <br>
+        <a href="https://github.com/TT--/TT--.github.io/blob/master/README.md" class="credits">Credits and attribution</a>
     </div>
 </header>
