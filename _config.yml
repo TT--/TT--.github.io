@@ -6,6 +6,7 @@ repository: tt--/tt--.github.io
 description: "Professional engineer in Ottawa, Canada interested in software and embedded."
 title: Tyler Trezise, P.Eng.
 title-allcaps: TYLER TREZISE, P.Eng.
+og-image: /img/og-image.jpg
 
 email: http://www.google.com/recaptcha/mailhide/d?k=01Fqo5M4sCOuHDBWiglleMWQ==&c=9dTla-ArGgmyk4CgVqhCG_6c0hHHLmtxC53H-Ftk7lY=
 
@@ -14,7 +15,7 @@ collections:
 
 # Team names, titles and social links
 people:
-- name: Tyler Trezise
+- name: Tyler Trezise, P.Eng.
   pic:
   position:
   social:
