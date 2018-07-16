@@ -25,6 +25,7 @@
 body {
 	font-family: {{ site.data.template.font.body }};
     line-height: 1.6;
+    background-color: #{{ site.data.template.color.backgnd }};
 }
 .text-muted {
 	color: #{{ site.data.template.color.muted }};
