@@ -1,12 +1,36 @@
 Tyler's portfolio site
 ======
-Copyright © 2018 Tyler Trezise
+Copyright © 2016 Tyler Trezise
 
 [![Build Status](https://travis-ci.org/TT--/TT--.github.io.svg?branch=master)](https://travis-ci.org/TT--/TT--.github.io)
 
 Based on ["Agency" Jekyll theme](http://jekyllthemes.org/themes/agency/) which is the Jekyll version of [Start Bootstrap - Agency Bootstrap Theme](http://startbootstrap.com/template-overviews/agency/) which is "based off of the Golden PSD Theme by Mathavan Jaya".
 
 Start Bootstrap Agency theme Copyright 2013-2015 Iron Summit Media Strategies, LLC and licensed under the [Apache License v2.0](/Start-Bootstrap-Agency-LICENSE/LICENSE).
+
+agency.js
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+
+bootstrap.js from Bootstrap v3.2.0 (http://getbootstrap.com)
+* Copyright 2011-2014 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+cbpAnimatedHeader.js v1.0.0
+* Copyright 2013, Codrops (http://www.codrops.com) Licensed under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+
+classie.js - class helper functions
+* from Bonzo https://github.com/ded/bonzo, Copyright © 2014 Dustin Diaz [@ded](https://twitter.com/ded)
+* licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. 
+ 
+jQuery Easing v1.3
+* http://gsgd.co.uk/sandbox/jquery/easing/
+* uses the built in easing capabilities added in jQuery 1.1 to offer multiple easing options
+* EASING EQUATIONS Copyright © 2001 Robert Penner.  All rights reserved.
+  * Open source under the BSD License.
+* jQuery Easing Copyright © 2008 George McGinley Smith.  All rights reserved.
+  * Open source under the BSD License.
 
 bootstrap.min.css from Bootswatch v3.2.0 Based on Bootstrap
  * http://bootswatch.com
