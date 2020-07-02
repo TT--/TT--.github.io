@@ -1,15 +1,16 @@
 # Color settings (hex color codes without the leading hash)
 color:
-  primary: 3f8abe # was 64a1cc 8EC2E6 639ac9 2196F3
+  primary: fff # Effects buttons, was 64a1cc 8EC2E6 639ac9 2196F3 3f8abe
   secondary: 2c5a80 # was 0b7dda
   secondary-dark: 183247 # was 053861
   light: fff
   brand: 3f8abe # was 64a1cc fff
-  header:  fff # 64a1cc
+  header: 183247 # 64a1cc fff
+  backgnd: 3690af
   header-desktop: 3f8abe # brand
   navbar-items: 3f8abe # brand
-  muted: 777
-  bg-darkest-gray: 222
+  muted: 183247 # was 777
+  bg-darkest-gray: 183247 # was 222
 
 # Font Families and base sizes
 font:
@@ -19,9 +20,9 @@ font:
   body: '"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif'
   p-size: 1.2em
   large: 1.125em
-  sec-head-size1: 1.7em
-  sec-head-size2: 2.3em
-  sec-sub-head-size: 1.5em
+  sec-head-size1: 2em
+  sec-head-size2: 2.5em
+  sec-sub-head-size: 1.8em
   h4-head-size1: 1.3em
   h4-head-size2: 1.5em
   brand-nav-collapse1: 1.5em
@@ -37,48 +38,37 @@ header:
   #background-position: 50% 20%
   #background-position: left/right/center top/center/bottom
   #background-position: left top
-  background-position: left 40%
-  nav:
-    text:
-      align: center
-    # For navbar breakpoint width
-    populated-width: 835px
-    #value above plus 15px
-    newbreakpoint: 850px
+  #background-position: left 40%
+  background-position: center center
+  author-max-width: 70%
+  author-max-width-midsize: 50%
 
   intro:
     text:
-      align: right
+      align: center
       align-midsize: center
-      align-desktop: left
-      padding-top: 170px
-      padding-bottom: 40px
-      padding-top-mid: 190px
-      padding-top-desktop: 60px
-      padding-bottom-desktop: 300px
-      padding-top-wide-desktop: 120px
+      align-desktop: center
+      padding-top: 0px
+      padding-bottom: 0px
+      padding-top-mid: 20px
+      padding-top-desktop: 40px
+      padding-bottom-desktop: 40px
+      padding-top-wide-desktop: 60px
     lead-in:
-      string: # header lead-in text
-      font-size:
-      line-height:
-      font-size-mid:
-      line-height-mid:
-      font-size-desktop:
-      line-height-desktop:
+      string: Tyler Trezise, P.Eng.
+      font-size: 2.7em
+      line-height: 1.3em
+      font-size-mid: 3em
+      line-height-mid: 1.5em
+      font-size-desktop: 3.5em
+      line-height-desktop: 2em
     heading:
-      string: Engineer & <br/> Problem Solver
-      font-size: 2.1em
+      string: Engineer & Problem Solver
+      font-size: 2em
       line-height: 1.3em
       font-size-mid: 2.5em
       line-height-mid: 1.5em
-      font-size-desktop: 2.1em
-      line-height-desktop: 1.3em
+      font-size-desktop: 3em
+      line-height-desktop: 1.5em
       font-size-wide-desktop: 3em
-      line-height-wide-desktop: 1.5em
-
-  scroll-but:
-    text-align: center
-    padding-top: 0px
-    padding-top-desktop: 0px
-    padding-bottom: 50px
-    padding-bottom-desktop: 100px
+      line-height-wide-desktop: 1.8em
