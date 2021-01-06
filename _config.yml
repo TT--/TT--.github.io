@@ -1,12 +1,13 @@
 url: http://trezise.ca
-baseurl: 
+baseurl:
 repository: tt--/tt--.github.io
 
 # Site settings
 description: "Professional engineer in Ottawa, Canada interested in software and embedded."
 title: Tyler Trezise, P.Eng.
 title-allcaps: TYLER TREZISE, P.Eng.
-og-image: /img/og-image.jpg
+# og-image: /img/og-image.jpg
+og-image: /img/header-bg.jpg
 
 email: https://mailhide.io/e/dy8cV
 
