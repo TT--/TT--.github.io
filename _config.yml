@@ -3,9 +3,9 @@ baseurl:
 repository: tt--/tt--.github.io
 
 # Site settings
-description: "Professional engineer in Ottawa, Canada interested in software and embedded."
-title: Tyler Trezise, P.Eng.
-title-allcaps: TYLER TREZISE, P.Eng.
+description: "Software engineer in Ottawa, Canada"
+title: Tyler Trezise
+title-allcaps: TYLER TREZISE
 # og-image: /img/og-image.jpg
 og-image: /img/header-bg.jpg
 
@@ -16,7 +16,7 @@ collections:
 
 # Team names, titles and social links
 people:
-- name: Tyler Trezise, P.Eng.
+- name: Tyler Trezise
   pic:
   position:
   social:
