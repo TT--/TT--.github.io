@@ -2,8 +2,6 @@ Tyler's portfolio site
 ======
 Copyright © 2018 Tyler Trezise
 
-[![Build Status](https://travis-ci.org/TT--/TT--.github.io.svg?branch=master)](https://travis-ci.org/TT--/TT--.github.io)
-
 Based on ["Agency" Jekyll theme](http://jekyllthemes.org/themes/agency/) which is the Jekyll version of [Start Bootstrap - Agency Bootstrap Theme](http://startbootstrap.com/template-overviews/agency/) which is "based off of the Golden PSD Theme by Mathavan Jaya".
 
 Start Bootstrap Agency theme Copyright 2013-2015 Iron Summit Media Strategies, LLC and licensed under the [Apache License v2.0](/Start-Bootstrap-Agency-LICENSE/LICENSE).
